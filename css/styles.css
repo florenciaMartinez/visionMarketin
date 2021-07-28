@@ -1,0 +1,386 @@
+* {
+  font-family: "Roboto", sans-serif; }
+
+main {
+  overflow: hidden; }
+
+/*Boton de whatsApp*/
+.btn-whatsapp {
+  display: block;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50%;
+  line-height: 10px;
+  text-align: center;
+  z-index: 999; }
+  .btn-whatsapp img {
+    width: 40px; }
+
+.menuMobile {
+  display: none !important; }
+
+.navEnlaces {
+  display: flex;
+  align-items: center; }
+
+.enlacesNav {
+  justify-content: flex-end;
+  font-family: "Roboto", sans-serif; }
+  .enlacesNav li {
+    padding-right: 30px; }
+    .enlacesNav li a {
+      font-family: "Roboto", sans-serif;
+      text-decoration: none;
+      color: white !important; }
+
+.menuFixed {
+  background-color: black;
+  padding: 0px;
+  transition: all ease .5s;
+  display: block !important;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  max-width: 1000; }
+  .menuFixed a {
+    color: white; }
+
+.logoMobile {
+  display: none; }
+
+.logoNav img {
+  width: 200px;
+  margin-left: 15%; }
+
+.titulos {
+  text-align: center;
+  padding: 5%;
+  color: #F42D00;
+  font-family: "Roboto", sans-serif; }
+
+.contenedorInicio {
+  margin-top: 7%;
+  width: 100%;
+  height: 600px;
+  background-image: url("../img/portadaWeb.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end; }
+
+.textoInicio {
+  border-bottom: 3px solid #000000; }
+  .textoInicio p {
+    font-family: "Roboto", sans-serif;
+    margin-right: 115px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 64px;
+    margin-top: 70px; }
+
+.servicios {
+  background-color: #A3A1A1; }
+  .servicios h2 {
+    color: #000000;
+    padding-top: 10%; }
+
+.espacioServicios {
+  height: 100px; }
+
+.acomodarServicios {
+  margin-left: 10%; }
+
+.secServ {
+  height: 200px;
+  width: 294px;
+  background-color: #3B3A3A;
+  color: white;
+  margin-bottom: 30px;
+  box-shadow: 4px 4px 4px rgba(253, 253, 253, 0.986); }
+  .secServ h5 {
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    text-align: center; }
+  .secServ p {
+    text-align: center;
+    font-family: "Roboto", sans-serif; }
+
+.secServBod {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .secServBod a {
+    color: #fff; }
+  .secServBod :hover {
+    color: #fff; }
+
+.textFaceMobile {
+  display: none; }
+
+.textFace {
+  display: block; }
+
+.equipo {
+  background-image: url("../img/fondoEquipo02.jpg");
+  background-size: cover;
+  height: 729px; }
+
+.quienesSomos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  text-align: center; }
+  .quienesSomos h5 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 30px;
+    margin-bottom: 7%;
+    margin-top: 18%; }
+
+.objetivo {
+  background-image: url();
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  position: relative;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  text-align: center; }
+  .objetivo h5 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 30px;
+    margin-bottom: 7%;
+    margin-top: 3%; }
+
+.somosOrden {
+  margin-left: 20%;
+  margin-right: 20%; }
+
+.objOrden {
+  margin-left: 20%;
+  margin-right: 20%; }
+
+.finPag {
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  height: 700px; }
+
+.telefonos {
+  text-align: center;
+  font-size: 20px; }
+
+.comunicate h5 {
+  margin-top: 90px;
+  margin-bottom: 10%;
+  font-size: 50px; }
+
+.comunicate a {
+  text-decoration: none;
+  color: white; }
+
+.redes {
+  padding-top: 30%;
+  margin-left: 20%; }
+  .redes h6 {
+    text-align: center;
+    font-size: 35px; }
+  .redes a {
+    margin: 0 8px 0 8px; }
+  .redes p {
+    margin-top: 15px; }
+
+.seguinosMobile {
+  display: flex; }
+
+.imgSeguinos {
+  margin-left: 100%;
+  padding-top: 30%; }
+
+.redesDsk {
+  display: none; }
+
+.imgSeguinosDsk {
+  display: none; }
+
+.contenedorServicios {
+  color: #fff;
+  background-image: url("../img/fondoServiciosDesktop2.jpg");
+  margin-top: 5%;
+  width: 100%;
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: column; }
+
+.contenedorServiciosTexto {
+  padding-left: 20%;
+  padding-right: 20%; }
+
+.contenedorServiciosTitulos {
+  display: flex;
+  align-items: center; }
+  .contenedorServiciosTitulos img {
+    width: 150px; }
+  .contenedorServiciosTitulos h5 {
+    justify-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    margin-left: 20%; }
+
+.proyectos {
+  background-color: rgba(196, 196, 196, 0.5); }
+  .proyectos h5 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 30px; }
+
+.proyectosImg {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 3%; }
+
+.imagen6 {
+  width: 100px; }
+
+.proyectosImgMobile {
+  display: none; }
+
+@media (max-width: 575.98px) {
+  .menuMobile {
+    display: block !important; }
+  .contenedorInicio {
+    margin: 0%;
+    background-image: url("../img/portadaMobile.png");
+    background-size: auto;
+    height: 700px; }
+  .equipo {
+    height: 1100px; }
+  .quienesSomos {
+    height: 35rem; }
+    .quienesSomos h5 {
+      margin-bottom: 10%;
+      line-height: normal; }
+    .quienesSomos p {
+      width: 250px; }
+  .objetivo {
+    height: 40rem; }
+    .objetivo h5 {
+      margin-top: -60px;
+      margin-bottom: 10%;
+      line-height: normal; }
+    .objetivo p {
+      width: 250px; }
+  section.quienesSomos {
+    background-image: url("../img/fondoEquipo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+  section.objetivo {
+    background-image: url("../img/fondoObjetivo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .menuMobile {
+    padding: 0;
+    background-color: black;
+    display: block;
+    height: 60px; }
+  .botonNav {
+    margin: 0px; }
+  .enlacesNav {
+    background-color: #000000;
+    margin: 0px; }
+  .fa-bars {
+    color: white; }
+  .menuFixed {
+    display: none !important; }
+  .logoMobile {
+    display: block; }
+  .contenedorNav {
+    padding: 0px; }
+  .contenedorEnlaces {
+    padding: 0px; }
+  .secServBod h5 {
+    text-align: center; }
+  .secServ {
+    height: 230px;
+    width: 100%; }
+    .secServ h5 {
+      font-size: 18px; }
+    .secServ p {
+      font-size: 12px; }
+  .textFaceMobile {
+    display: block; }
+  .textFace {
+    display: none; }
+  .acomodarServicios {
+    margin-left: 0px; }
+  .espacioServicios {
+    display: none; }
+  .finPag {
+    height: 100%; }
+  .comunicate h5 {
+    margin-top: 15%;
+    font-size: 25px;
+    width: 300px;
+    text-align: center; }
+  .seguinosMobile {
+    display: block; }
+  .redes {
+    margin: 0px; }
+    .redes h6 {
+      font-size: 25px;
+      font-family: "Roboto", sans-serif; }
+    .redes a {
+      margin: 0 8px 0 8px; }
+    .redes p {
+      margin-top: 15px;
+      font-family: "Roboto", sans-serif; }
+  .imgSeguinos {
+    margin: 0px;
+    width: 100px; }
+    .imgSeguinos img {
+      margin-top: -23px; }
+  .proyectosImg {
+    display: none; }
+  .proyectosImgMobile {
+    display: block;
+    size: 100px; }
+  .proyectos {
+    margin-top: 24%;
+    padding-top: 6%; }
+    .proyectos h5 {
+      font-size: 40px; }
+  .contenedorServicios {
+    margin-top: -1%;
+    background-image: url("../img/fondoServiciosMobile.jpg");
+    height: 100%; } }
