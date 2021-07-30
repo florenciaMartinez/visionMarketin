@@ -331,7 +331,8 @@ main {
   .menuFixed {
     display: none !important; }
   .logoMobile {
-    display: block; }
+    display: block;
+    padding: 0px; }
   .contenedorNav {
     padding: 0px; }
   .contenedorEnlaces {
