@@ -90,7 +90,12 @@ main {
   background-color: #A3A1A1; }
   .servicios h2 {
     color: #000000;
-    padding-top: 10%; }
+    padding-top: 10%;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 30px; }
 
 .espacioServicios {
   height: 100px; }
@@ -290,7 +295,8 @@ main {
     height: 35rem; }
     .quienesSomos h5 {
       margin-bottom: 10%;
-      line-height: normal; }
+      line-height: normal;
+      font-size: 40px; }
     .quienesSomos p {
       width: 250px; }
   .objetivo {
@@ -298,7 +304,8 @@ main {
     .objetivo h5 {
       margin-top: -60px;
       margin-bottom: 10%;
-      line-height: normal; }
+      line-height: normal;
+      font-size: 40px; }
     .objetivo p {
       width: 250px; }
   section.quienesSomos {
@@ -346,6 +353,9 @@ main {
     margin-left: 0px; }
   .espacioServicios {
     display: none; }
+  .servicios h2 {
+    line-height: 60px;
+    font-size: 40px; }
   .finPag {
     height: 100%; }
   .comunicate h5 {

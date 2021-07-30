@@ -133,6 +133,11 @@ main {
     h2 {
         color: #000000;
         padding-top: 10%;
+        font-family: $fuente-roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 30px;
     }
 }
 
@@ -393,6 +398,7 @@ main {
         h5 {
             margin-bottom: 10%;
             line-height: normal;
+            font-size: 40px;
         }
         p {
             width: 250px;
@@ -404,6 +410,7 @@ main {
             margin-top: -60px;
             margin-bottom: 10%;
             line-height: normal;
+            font-size: 40px;
         }
         p {
             width: 250px;
@@ -473,6 +480,10 @@ main {
     }
     .espacioServicios {
         display: none;
+    }
+    .servicios h2 {
+        line-height: 60px;
+        font-size: 40px;
     }
     //footerMObile
     .finPag {
